@@ -18,6 +18,14 @@ return {
       window = {
         mappings = {
           ['\\'] = 'close_window',
+          ['l'] = {
+            command = 'open',
+            nowait = true,
+          },
+          ['h'] = {
+            command = 'close_node',
+            nowait = true,
+          },
         },
       },
     },
